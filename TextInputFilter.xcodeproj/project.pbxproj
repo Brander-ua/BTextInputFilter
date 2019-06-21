@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30EB6CD022BBB13300447D5A /* TextInputFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EB6CC622BBB13200447D5A /* TextInputFilter.framework */; };
+		30EB6CD522BBB13300447D5A /* TextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CD422BBB13300447D5A /* TextInputFilterTests.swift */; };
+		30EB6CD722BBB13300447D5A /* TextInputFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EB6CC922BBB13200447D5A /* TextInputFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30EB6CE522BBB1C500447D5A /* TextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CE422BBB1C500447D5A /* TextInputFilter.swift */; };
+		30EB6CE722BBB28800447D5A /* RegexTextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CE622BBB28800447D5A /* RegexTextInputFilter.swift */; };
+		30EB6CEB22BBB3B500447D5A /* DigitsOnlyRegexTextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CEA22BBB3B500447D5A /* DigitsOnlyRegexTextInputFilterTests.swift */; };
+		30EB6CED22BBB5A300447D5A /* DigitsOnlyCharacterSetTextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CEC22BBB5A300447D5A /* DigitsOnlyCharacterSetTextInputFilterTests.swift */; };
+		30EB6CEF22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CEE22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift */; };
+		30EB6CF122BBB92D00447D5A /* CharacterSetTextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CF022BBB92D00447D5A /* CharacterSetTextInputFilter.swift */; };
+		30EB6CF322BBBD9700447D5A /* a_zOnlyCharactersSetTextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CF222BBBD9700447D5A /* a_zOnlyCharactersSetTextInputFilterTests.swift */; };
+		30EB6CF522BBBFEF00447D5A /* TextInputFilter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 30EB6CF422BBBFEF00447D5A /* TextInputFilter.podspec */; };
+		30EB6CF822BBC02600447D5A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 30EB6CF722BBC02600447D5A /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30EB6CD122BBB13300447D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30EB6CBD22BBB13200447D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30EB6CC522BBB13200447D5A;
+			remoteInfo = TextInputFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30EB6CC622BBB13200447D5A /* TextInputFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextInputFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EB6CC922BBB13200447D5A /* TextInputFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextInputFilter.h; sourceTree = "<group>"; };
+		30EB6CCA22BBB13200447D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EB6CCF22BBB13300447D5A /* TextInputFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextInputFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EB6CD422BBB13300447D5A /* TextInputFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputFilterTests.swift; sourceTree = "<group>"; };
+		30EB6CD622BBB13300447D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EB6CE422BBB1C500447D5A /* TextInputFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputFilter.swift; sourceTree = "<group>"; };
+		30EB6CE622BBB28800447D5A /* RegexTextInputFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTextInputFilter.swift; sourceTree = "<group>"; };
+		30EB6CEA22BBB3B500447D5A /* DigitsOnlyRegexTextInputFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitsOnlyRegexTextInputFilterTests.swift; sourceTree = "<group>"; };
+		30EB6CEC22BBB5A300447D5A /* DigitsOnlyCharacterSetTextInputFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitsOnlyCharacterSetTextInputFilterTests.swift; sourceTree = "<group>"; };
+		30EB6CEE22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a_zRegexTextInputFilterTests.swift; sourceTree = "<group>"; };
+		30EB6CF022BBB92D00447D5A /* CharacterSetTextInputFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSetTextInputFilter.swift; sourceTree = "<group>"; };
+		30EB6CF222BBBD9700447D5A /* a_zOnlyCharactersSetTextInputFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a_zOnlyCharactersSetTextInputFilterTests.swift; sourceTree = "<group>"; };
+		30EB6CF422BBBFEF00447D5A /* TextInputFilter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextInputFilter.podspec; sourceTree = SOURCE_ROOT; };
+		30EB6CF722BBC02600447D5A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EB6CC322BBB13200447D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EB6CCC22BBB13300447D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB6CD022BBB13300447D5A /* TextInputFilter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EB6CBC22BBB13200447D5A = {
+			isa = PBXGroup;
+			children = (
+				30EB6CC822BBB13200447D5A /* TextInputFilter */,
+				30EB6CD322BBB13300447D5A /* TextInputFilterTests */,
+				30EB6CC722BBB13200447D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EB6CC722BBB13200447D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6CC622BBB13200447D5A /* TextInputFilter.framework */,
+				30EB6CCF22BBB13300447D5A /* TextInputFilterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EB6CC822BBB13200447D5A /* TextInputFilter */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6CE222BBB18000447D5A /* BundleFiles */,
+				30EB6CE122BBB17300447D5A /* Deployment */,
+				30EB6CE022BBB16100447D5A /* Documentation */,
+				30EB6CE322BBB1A000447D5A /* Source */,
+				30EB6CC922BBB13200447D5A /* TextInputFilter.h */,
+			);
+			path = TextInputFilter;
+			sourceTree = "<group>";
+		};
+		30EB6CD322BBB13300447D5A /* TextInputFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6CE822BBB33900447D5A /* RegexTextInputFilterTests */,
+				30EB6CE922BBB34400447D5A /* CharacterSetTextInputFilterTests */,
+				30EB6CD422BBB13300447D5A /* TextInputFilterTests.swift */,
+				30EB6CD622BBB13300447D5A /* Info.plist */,
+			);
+			path = TextInputFilterTests;
+			sourceTree = "<group>";
+		};
+		30EB6CE022BBB16100447D5A /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		30EB6CE122BBB17300447D5A /* Deployment */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6CF422BBBFEF00447D5A /* TextInputFilter.podspec */,
+				30EB6CF722BBC02600447D5A /* LICENSE */,
+			);
+			name = Deployment;
+			sourceTree = "<group>";
+		};
+		30EB6CE222BBB18000447D5A /* BundleFiles */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6CCA22BBB13200447D5A /* Info.plist */,
+			);
+			path = BundleFiles;
+			sourceTree = "<group>";
+		};
+		30EB6CE322BBB1A000447D5A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6CE422BBB1C500447D5A /* TextInputFilter.swift */,
+				30EB6CE622BBB28800447D5A /* RegexTextInputFilter.swift */,
+				30EB6CF022BBB92D00447D5A /* CharacterSetTextInputFilter.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		30EB6CE822BBB33900447D5A /* RegexTextInputFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6CEA22BBB3B500447D5A /* DigitsOnlyRegexTextInputFilterTests.swift */,
+				30EB6CEE22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift */,
+			);
+			path = RegexTextInputFilterTests;
+			sourceTree = "<group>";
+		};
+		30EB6CE922BBB34400447D5A /* CharacterSetTextInputFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6CEC22BBB5A300447D5A /* DigitsOnlyCharacterSetTextInputFilterTests.swift */,
+				30EB6CF222BBBD9700447D5A /* a_zOnlyCharactersSetTextInputFilterTests.swift */,
+			);
+			path = CharacterSetTextInputFilterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30EB6CC122BBB13200447D5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB6CD722BBB13300447D5A /* TextInputFilter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30EB6CC522BBB13200447D5A /* TextInputFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EB6CDA22BBB13300447D5A /* Build configuration list for PBXNativeTarget "TextInputFilter" */;
+			buildPhases = (
+				30EB6CC122BBB13200447D5A /* Headers */,
+				30EB6CC222BBB13200447D5A /* Sources */,
+				30EB6CC322BBB13200447D5A /* Frameworks */,
+				30EB6CC422BBB13200447D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextInputFilter;
+			productName = TextInputFilter;
+			productReference = 30EB6CC622BBB13200447D5A /* TextInputFilter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30EB6CCE22BBB13300447D5A /* TextInputFilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EB6CDD22BBB13300447D5A /* Build configuration list for PBXNativeTarget "TextInputFilterTests" */;
+			buildPhases = (
+				30EB6CCB22BBB13300447D5A /* Sources */,
+				30EB6CCC22BBB13300447D5A /* Frameworks */,
+				30EB6CCD22BBB13300447D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EB6CD222BBB13300447D5A /* PBXTargetDependency */,
+			);
+			name = TextInputFilterTests;
+			productName = TextInputFilterTests;
+			productReference = 30EB6CCF22BBB13300447D5A /* TextInputFilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EB6CBD22BBB13200447D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = branderstudio;
+				TargetAttributes = {
+					30EB6CC522BBB13200447D5A = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					30EB6CCE22BBB13300447D5A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 30EB6CC022BBB13200447D5A /* Build configuration list for PBXProject "TextInputFilter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30EB6CBC22BBB13200447D5A;
+			productRefGroup = 30EB6CC722BBB13200447D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EB6CC522BBB13200447D5A /* TextInputFilter */,
+				30EB6CCE22BBB13300447D5A /* TextInputFilterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EB6CC422BBB13200447D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB6CF822BBC02600447D5A /* LICENSE in Resources */,
+				30EB6CF522BBBFEF00447D5A /* TextInputFilter.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EB6CCD22BBB13300447D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EB6CC222BBB13200447D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB6CE522BBB1C500447D5A /* TextInputFilter.swift in Sources */,
+				30EB6CE722BBB28800447D5A /* RegexTextInputFilter.swift in Sources */,
+				30EB6CF122BBB92D00447D5A /* CharacterSetTextInputFilter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EB6CCB22BBB13300447D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB6CEF22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift in Sources */,
+				30EB6CED22BBB5A300447D5A /* DigitsOnlyCharacterSetTextInputFilterTests.swift in Sources */,
+				30EB6CD522BBB13300447D5A /* TextInputFilterTests.swift in Sources */,
+				30EB6CF322BBBD9700447D5A /* a_zOnlyCharactersSetTextInputFilterTests.swift in Sources */,
+				30EB6CEB22BBB3B500447D5A /* DigitsOnlyRegexTextInputFilterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30EB6CD222BBB13300447D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30EB6CC522BBB13200447D5A /* TextInputFilter */;
+			targetProxy = 30EB6CD122BBB13300447D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30EB6CD822BBB13300447D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30EB6CD922BBB13300447D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30EB6CDB22BBB13300447D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/TextInputFilter/BundleFiles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextInputFilter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30EB6CDC22BBB13300447D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/TextInputFilter/BundleFiles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextInputFilter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30EB6CDE22BBB13300447D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MSPFU2KV4;
+				INFOPLIST_FILE = TextInputFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextInputFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30EB6CDF22BBB13300447D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MSPFU2KV4;
+				INFOPLIST_FILE = TextInputFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextInputFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EB6CC022BBB13200447D5A /* Build configuration list for PBXProject "TextInputFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EB6CD822BBB13300447D5A /* Debug */,
+				30EB6CD922BBB13300447D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EB6CDA22BBB13300447D5A /* Build configuration list for PBXNativeTarget "TextInputFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EB6CDB22BBB13300447D5A /* Debug */,
+				30EB6CDC22BBB13300447D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EB6CDD22BBB13300447D5A /* Build configuration list for PBXNativeTarget "TextInputFilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EB6CDE22BBB13300447D5A /* Debug */,
+				30EB6CDF22BBB13300447D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EB6CBD22BBB13200447D5A /* Project object */;
+}
