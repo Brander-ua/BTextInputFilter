@@ -17,7 +17,7 @@
 		30EB6CEF22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CEE22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift */; };
 		30EB6CF122BBB92D00447D5A /* CharacterSetTextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CF022BBB92D00447D5A /* CharacterSetTextInputFilter.swift */; };
 		30EB6CF322BBBD9700447D5A /* a_zOnlyCharactersSetTextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CF222BBBD9700447D5A /* a_zOnlyCharactersSetTextInputFilterTests.swift */; };
-		30EB6CF522BBBFEF00447D5A /* TextInputFilter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 30EB6CF422BBBFEF00447D5A /* TextInputFilter.podspec */; };
+		30EB6CF522BBBFEF00447D5A /* BTextInputFilter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 30EB6CF422BBBFEF00447D5A /* BTextInputFilter.podspec */; };
 		30EB6CF822BBC02600447D5A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 30EB6CF722BBC02600447D5A /* LICENSE */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +45,7 @@
 		30EB6CEE22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a_zRegexTextInputFilterTests.swift; sourceTree = "<group>"; };
 		30EB6CF022BBB92D00447D5A /* CharacterSetTextInputFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSetTextInputFilter.swift; sourceTree = "<group>"; };
 		30EB6CF222BBBD9700447D5A /* a_zOnlyCharactersSetTextInputFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a_zOnlyCharactersSetTextInputFilterTests.swift; sourceTree = "<group>"; };
-		30EB6CF422BBBFEF00447D5A /* TextInputFilter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextInputFilter.podspec; sourceTree = SOURCE_ROOT; };
+		30EB6CF422BBBFEF00447D5A /* BTextInputFilter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BTextInputFilter.podspec; sourceTree = SOURCE_ROOT; };
 		30EB6CF722BBC02600447D5A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -119,7 +119,7 @@
 		30EB6CE122BBB17300447D5A /* Deployment */ = {
 			isa = PBXGroup;
 			children = (
-				30EB6CF422BBBFEF00447D5A /* TextInputFilter.podspec */,
+				30EB6CF422BBBFEF00447D5A /* BTextInputFilter.podspec */,
 				30EB6CF722BBC02600447D5A /* LICENSE */,
 			);
 			name = Deployment;
@@ -255,7 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EB6CF822BBC02600447D5A /* LICENSE in Resources */,
-				30EB6CF522BBBFEF00447D5A /* TextInputFilter.podspec in Resources */,
+				30EB6CF522BBBFEF00447D5A /* BTextInputFilter.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
