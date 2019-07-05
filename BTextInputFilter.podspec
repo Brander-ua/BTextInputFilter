@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Brander-ua/BTextInputFilter.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.swift_versions = '4.0'
 
   s.source_files = 'TextInputFilter/Source/**/*'
 end
