@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302413A422FA925900B74A23 /* MaxLengthTextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302413A322FA925900B74A23 /* MaxLengthTextInputFilter.swift */; };
+		302413A722FA93CD00B74A23 /* MaxLengthTextInputFilterHappyPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302413A622FA93CD00B74A23 /* MaxLengthTextInputFilterHappyPathTests.swift */; };
 		30EB6CD022BBB13300447D5A /* TextInputFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EB6CC622BBB13200447D5A /* TextInputFilter.framework */; };
 		30EB6CD522BBB13300447D5A /* TextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CD422BBB13300447D5A /* TextInputFilterTests.swift */; };
 		30EB6CD722BBB13300447D5A /* TextInputFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EB6CC922BBB13200447D5A /* TextInputFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		302413A322FA925900B74A23 /* MaxLengthTextInputFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLengthTextInputFilter.swift; sourceTree = "<group>"; };
+		302413A622FA93CD00B74A23 /* MaxLengthTextInputFilterHappyPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLengthTextInputFilterHappyPathTests.swift; sourceTree = "<group>"; };
 		30EB6CC622BBB13200447D5A /* TextInputFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextInputFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB6CC922BBB13200447D5A /* TextInputFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextInputFilter.h; sourceTree = "<group>"; };
 		30EB6CCA22BBB13200447D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302413A522FA939900B74A23 /* MaxLengthTextInputFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				302413A622FA93CD00B74A23 /* MaxLengthTextInputFilterHappyPathTests.swift */,
+			);
+			path = MaxLengthTextInputFilterTests;
+			sourceTree = "<group>";
+		};
 		30EB6CBC22BBB13200447D5A = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 			children = (
 				30EB6CE822BBB33900447D5A /* RegexTextInputFilterTests */,
 				30EB6CE922BBB34400447D5A /* CharacterSetTextInputFilterTests */,
+				302413A522FA939900B74A23 /* MaxLengthTextInputFilterTests */,
 				30EB6CD422BBB13300447D5A /* TextInputFilterTests.swift */,
 				30EB6CD622BBB13300447D5A /* Info.plist */,
 			);
@@ -139,6 +152,7 @@
 				30EB6CE422BBB1C500447D5A /* TextInputFilter.swift */,
 				30EB6CE622BBB28800447D5A /* RegexTextInputFilter.swift */,
 				30EB6CF022BBB92D00447D5A /* CharacterSetTextInputFilter.swift */,
+				302413A322FA925900B74A23 /* MaxLengthTextInputFilter.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -273,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302413A422FA925900B74A23 /* MaxLengthTextInputFilter.swift in Sources */,
 				30EB6CE522BBB1C500447D5A /* TextInputFilter.swift in Sources */,
 				30EB6CE722BBB28800447D5A /* RegexTextInputFilter.swift in Sources */,
 				30EB6CF122BBB92D00447D5A /* CharacterSetTextInputFilter.swift in Sources */,
@@ -283,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302413A722FA93CD00B74A23 /* MaxLengthTextInputFilterHappyPathTests.swift in Sources */,
 				30EB6CEF22BBB76100447D5A /* a_zRegexTextInputFilterTests.swift in Sources */,
 				30EB6CED22BBB5A300447D5A /* DigitsOnlyCharacterSetTextInputFilterTests.swift in Sources */,
 				30EB6CD522BBB13300447D5A /* TextInputFilterTests.swift in Sources */,
