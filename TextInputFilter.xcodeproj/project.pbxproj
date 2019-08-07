@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		302413A422FA925900B74A23 /* MaxLengthTextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302413A322FA925900B74A23 /* MaxLengthTextInputFilter.swift */; };
 		302413A722FA93CD00B74A23 /* MaxLengthTextInputFilterHappyPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302413A622FA93CD00B74A23 /* MaxLengthTextInputFilterHappyPathTests.swift */; };
+		302413AE22FA9C8700B74A23 /* CompositeTextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302413AD22FA9C8700B74A23 /* CompositeTextInputFilter.swift */; };
 		30EB6CD022BBB13300447D5A /* TextInputFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EB6CC622BBB13200447D5A /* TextInputFilter.framework */; };
 		30EB6CD522BBB13300447D5A /* TextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB6CD422BBB13300447D5A /* TextInputFilterTests.swift */; };
 		30EB6CD722BBB13300447D5A /* TextInputFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EB6CC922BBB13200447D5A /* TextInputFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		302413A322FA925900B74A23 /* MaxLengthTextInputFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLengthTextInputFilter.swift; sourceTree = "<group>"; };
 		302413A622FA93CD00B74A23 /* MaxLengthTextInputFilterHappyPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLengthTextInputFilterHappyPathTests.swift; sourceTree = "<group>"; };
+		302413AD22FA9C8700B74A23 /* CompositeTextInputFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTextInputFilter.swift; sourceTree = "<group>"; };
 		30EB6CC622BBB13200447D5A /* TextInputFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextInputFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB6CC922BBB13200447D5A /* TextInputFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextInputFilter.h; sourceTree = "<group>"; };
 		30EB6CCA22BBB13200447D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				30EB6CE622BBB28800447D5A /* RegexTextInputFilter.swift */,
 				30EB6CF022BBB92D00447D5A /* CharacterSetTextInputFilter.swift */,
 				302413A322FA925900B74A23 /* MaxLengthTextInputFilter.swift */,
+				302413AD22FA9C8700B74A23 /* CompositeTextInputFilter.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				302413A422FA925900B74A23 /* MaxLengthTextInputFilter.swift in Sources */,
 				30EB6CE522BBB1C500447D5A /* TextInputFilter.swift in Sources */,
 				30EB6CE722BBB28800447D5A /* RegexTextInputFilter.swift in Sources */,
+				302413AE22FA9C8700B74A23 /* CompositeTextInputFilter.swift in Sources */,
 				30EB6CF122BBB92D00447D5A /* CharacterSetTextInputFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
