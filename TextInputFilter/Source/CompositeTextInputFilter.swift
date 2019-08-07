@@ -20,7 +20,7 @@ open class CompositeTextInputFilter: TextInputFilter {
     guard let filteringText = text, !filteringText.isEmpty else { return text }
     var filteredText = filteringText
     for filter in filters {
-      filteredText = filter.filter(text: filteringText) ?? ""
+      filteredText = filter.filter(text: filteredText) ?? ""
     }
     return filteredText.isEmpty ? nil : filteredText
   }
